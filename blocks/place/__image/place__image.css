@@ -1,0 +1,16 @@
+.place__image {
+  width: 460px;
+  height: 460px;
+  padding: 0;
+  margin: 0;
+  margin-top: 48px;
+  margin-right: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 1024px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+}

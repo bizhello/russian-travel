@@ -1,0 +1,13 @@
+.page {
+  max-width: 1280px;
+  padding: 0;
+  margin: auto;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+  font-family: 'Inter';
+}
+@media (max-width:1024px)  {
+  .page {
+    max-width: 1024px;
+  }
+}

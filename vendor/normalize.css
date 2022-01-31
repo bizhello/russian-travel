@@ -350,3 +350,6 @@ template {
 .uppercase {
   text-transform: uppercase;
 }
+.weight-normal {
+  font-weight: normal;
+}

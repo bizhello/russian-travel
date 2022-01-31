@@ -1,0 +1,15 @@
+.lead__image {
+  max-width: 984px;
+  max-height: 615px;
+  margin: 64px auto 0;
+  padding: 0;
+  object-fit: contain;
+  object-position: center;
+}
+@media (max-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+    max-height: 580px;
+    margin-top: 56px;
+  }
+}

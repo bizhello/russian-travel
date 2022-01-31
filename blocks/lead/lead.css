@@ -1,0 +1,11 @@
+.lead {
+  max-width: 984px;
+  max-height: 1005px;
+  margin: 56px auto 0;
+}
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    max-height: 962px;
+  }
+}
