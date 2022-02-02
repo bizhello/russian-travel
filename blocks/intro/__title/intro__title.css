@@ -1,5 +1,6 @@
 .intro__title {
-  min-width: 590px;
+  display: inline-block;
+  max-width: 590px;
   min-height: 68px;
   margin: 0;
   padding: 0;
@@ -9,4 +10,19 @@
   font-size: 54px;
   line-height: 58px;
   color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .intro__title {
+    max-width: 720px;
+    min-height: 58px;
+  }
+}
+@media (max-width: 320px) {
+  .intro__title {
+    max-width: 288px;
+    min-height: 70px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }

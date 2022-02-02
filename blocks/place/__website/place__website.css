@@ -1,9 +1,30 @@
 .place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   max-width: 456px;
-  max-height: 46px;
+  min-height: 46px;
   padding: 0;
   margin: 0;
-  margin-top: 106px;
-  margin-bottom: 48px;
+  margin-left: 40px;
   list-style-type: none;
+}
+@media (max-width: 1024px) {
+  .place__website {
+    margin-left: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .place__website {
+    max-width: 352px;
+    min-height: 46px;
+    margin-left: 28px;
+  }
+}
+@media (max-width: 320px) {
+  .place__website {
+    min-width: 288px;
+    min-height: 46px;
+    margin: 32px auto 0;
+  }
 }

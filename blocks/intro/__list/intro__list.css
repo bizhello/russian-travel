@@ -1,5 +1,5 @@
 .intro__list {
-  min-width: 690px;
+  max-width: 690px;
   min-height: 90px;
   padding: 0;
   margin: 0;
@@ -11,4 +11,17 @@
   font-size: 12px;
   line-height: 18px;
   color: #FFFFFF;
+}
+@media (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+    min-height: 90px;
+    margin-top: 34px;
+  }
+}
+@media (max-width: 768px) {
+  .intro__list {
+    max-width: 720px;
+    min-height: 90px;
+  }
 }

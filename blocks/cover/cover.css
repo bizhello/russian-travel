@@ -1,14 +1,15 @@
 .cover {
   display: flex;
   position: relative;
-  box-sizing: border-box;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   padding: 0;
   margin: 92px auto;
-  width: 1184px;
-  height: 740px;
+  max-width: 1184px;
+  min-height: 740px;
   background-image: url("../../images/background.png");
+  background-size: cover;
   transition: opacity 0.3s;
 }
 .cover:hover {
@@ -27,7 +28,23 @@
 }
 @media (max-width: 1024px) {
   .cover {
-    width: 100%;
-    height: 640px;
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+@media (max-width: 768px) {
+    .cover {
+      max-width: 768px;
+      min-height: 480px;
+      margin-top: 90px;
+      margin-bottom: 88px;
+    }
+}
+@media (max-width: 320px) {
+  .cover {
+    max-width: 320px;
+    min-height: 200px;
+    margin-top: 66px;
+    margin-bottom: 62px;
   }
 }

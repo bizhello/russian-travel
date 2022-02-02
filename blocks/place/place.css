@@ -1,15 +1,33 @@
 .place {
   display: flex;
-  min-width: 984px;
+  flex-wrap: wrap;
+  max-width: 984px;
+  min-height: 584px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   margin-bottom: 80px;
 }
+
 .place:last-of-type {
   margin-bottom: 0;
 }
 @media (max-width: 1024px) {
   .place{
-    min-width: 928px;
+    max-width: 928px;
+    min-height: 564px;
+  }
+}
+@media (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    min-height: 434px;
+    margin-bottom: 73px;
+  }
+}
+@media (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    min-height: 964px;
+    margin-bottom: 50px;
   }
 }

@@ -1,13 +1,27 @@
 .page {
   max-width: 1280px;
+  min-height: 6875px;
   padding: 0;
-  margin: auto;
+  margin: 0 auto;
   background-color: #2A2C2F;
   color: #FFFFFF;
   font-family: 'Inter';
 }
-@media (max-width:1024px)  {
+@media (max-width: 1024px)  {
   .page {
-    max-width: 1024px;
+    width: 1024px;
+    min-height: 6895px;
+  }
+}
+@media (max-width: 768px) {
+  .page {
+    max-width: 768px;
+    min-height: 6855px;
+  }
+}
+@media (max-width: 320px) {
+  .page {
+    max-width: 320px;
+    min-height: 10023px;
   }
 }

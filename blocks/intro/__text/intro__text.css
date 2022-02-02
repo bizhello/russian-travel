@@ -1,5 +1,6 @@
 .intro__text {
-  min-width: 690px;
+  display: inline-block;
+  max-width: 690px;
   min-height: 208px;
   padding: 0;
   margin: 0;
@@ -10,4 +11,16 @@
   font-size: 16px;
   line-height: 163%;
   color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+    line-height: 26.08px;
+  }
+}
+@media (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+    min-height: 520px;
+  }
 }

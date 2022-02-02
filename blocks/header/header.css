@@ -2,13 +2,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 1184px;
+  max-width: 1184px;
   min-height: 52px;
-  margin: 28px 48px 0;
+  padding: 0;
+  margin: 28px auto 0;
 }
 @media (max-width: 1024px) {
   .header {
-    min-width: 928px;
+    max-width: 928px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    max-width: 720px;
     min-height: 52px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    max-width: 288px;
+    min-height: 42px;
+    margin-top: 16px;
   }
 }

@@ -1,5 +1,8 @@
 .place__title {
-  min-width: 460px;
+  display: flex;
+  align-items: flex-end;
+  width: 460px;
+  min-height: 76px;
   margin: 0;
   padding: 0;
   font-family: 'Inter';
@@ -11,6 +14,23 @@
 }
 @media (max-width: 1024px) {
   .place__title {
-    min-width: 440px;
+    width: 440px;
+  }
+}
+@media (max-width: 768px) {
+  .place__title {
+    width: 340px;
+    min-height: 46px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media (max-width: 320px) {
+  .place__title {
+    width: 288px;
+    min-height: 35px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 auto;
   }
 }
