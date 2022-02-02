@@ -17,11 +17,16 @@
   color: #FFFFFF;
 }
 
-
+@media (min-width: 320px) and (max-width: 510px) {
+  .cover__title {
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / ( 510 - 320) ));
+  }
+}
 @media (max-width: 320px) {
   .cover__title {
     max-width: 288px;
     min-height: 70px;
+    font-size: 32px;
     font-size: 32px;
     line-height: 35px;
   }

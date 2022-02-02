@@ -11,6 +11,11 @@
   line-height: 100px;
   color: #FFFFFF;
 }
+@media (min-width: 320px) and (max-width: 700px) {
+  .lead__title {
+    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / ( 700 - 320) ));
+  }
+}
 @media (max-width: 320px) {
   .lead__title {
     max-width: 288px;

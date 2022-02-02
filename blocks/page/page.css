@@ -1,15 +1,18 @@
 .page {
+  box-sizing: border-box;
+  position: relative;
   max-width: 1280px;
   min-height: 6875px;
   padding: 0;
   margin: 0 auto;
   background-color: #2A2C2F;
   color: #FFFFFF;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
+  overflow-x: hidden;
 }
 @media (max-width: 1024px)  {
   .page {
-    width: 1024px;
+    max-width: 1024px;
     min-height: 6895px;
   }
 }

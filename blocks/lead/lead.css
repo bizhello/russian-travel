@@ -3,6 +3,7 @@
   min-height: 1005px;
   margin: 56px auto 0;
   padding: 0;
+  
 }
 @media (max-width: 1024px) {
   .lead {
