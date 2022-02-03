@@ -8,7 +8,7 @@
   margin: 92px auto;
   max-width: 1184px;
   min-height: 740px;
-  background-image: url("../../images/background.png");
+  background-image: url("../../images/cover-trains.jpg");
   background-size: cover;
   transition: opacity 0.3s;
 }
