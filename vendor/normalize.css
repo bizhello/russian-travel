@@ -347,9 +347,3 @@ template {
 [hidden] {
   display: none;
 }
-.uppercase {
-  text-transform: uppercase;
-}
-.weight-normal {
-  font-weight: normal;
-}

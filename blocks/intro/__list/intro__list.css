@@ -25,3 +25,9 @@
     min-height: 90px;
   }
 }
+.uppercase {
+  text-transform: uppercase;
+}
+.weight-normal {
+  font-weight: normal;
+}
