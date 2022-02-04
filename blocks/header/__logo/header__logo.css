@@ -5,6 +5,7 @@
   padding: 0;
   background: url("../../../images/header-logo.svg");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 320px) {

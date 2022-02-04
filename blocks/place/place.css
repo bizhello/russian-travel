@@ -24,6 +24,11 @@
     margin-bottom: 73px;
   }
 }
+@media (max-width: 522px) {
+  .place {
+    flex-direction: column;
+  }
+}
 @media (max-width: 320px) {
   .place {
     max-width: 320px;

@@ -1,5 +1,6 @@
 .place__paragraph {
-  max-width: 482px;
+  display: block;
+  max-width: 100%;
   min-height: 116px;
   padding: 0;
   margin: 0;
@@ -17,14 +18,19 @@
 }
 @media (max-width: 1024px) {
   .place__paragraph {
-    max-width: 454px;
     min-height: 116px;
     font-weight: 400;
   }
 }
+@media (min-width: 768px) and (max-width: 1280px) {
+  .place__paragraph {
+    font-size: calc(16px + (18 - 16) * ((100vw - 768px) / ( 1280 - 768) ));
+    line-height: calc(26px + (29.34 - 26) * ((100vw - 768) / ( 1280 - 768) ));
+  }
+}
+
 @media (max-width: 768px) {
   .place__paragraph {
-    max-width: 350px;
     min-height: 104px;
     font-size: 16px;
     line-height: 26px;
@@ -33,7 +39,6 @@
 }
 @media (max-width: 320px) {
   .place__paragraph {
-    max-width: 288px;
     min-height: 156px;
   }
 }

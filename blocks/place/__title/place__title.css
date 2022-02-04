@@ -1,7 +1,7 @@
 .place__title {
   display: flex;
   align-items: flex-end;
-  width: 460px;
+  width: 46.7%;
   min-height: 76px;
   margin: 0;
   padding: 0;
@@ -12,25 +12,29 @@
   line-height: 76px;
   color: #FFFFFF;
 }
-@media (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .place__title {
-    width: 440px;
+    font-size: calc(42px + (72 - 42) * ((100vw - 768px) / ( 1280 - 768) ));
   }
 }
+
 @media (max-width: 768px) {
   .place__title {
-    width: 340px;
     min-height: 46px;
     font-size: 42px;
     line-height: 46px;
   }
 }
+@media (max-width: 522px) {
+  .place__title {
+    min-width: 90%;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 320px) {
   .place__title {
-    width: 288px;
     min-height: 35px;
     font-size: 32px;
     line-height: 35px;
-    margin: 0 auto;
   }
 }
