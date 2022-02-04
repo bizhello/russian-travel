@@ -30,7 +30,7 @@
     max-width: 50px;
   }
 }
-@media (max-width: 660px) {
+@media (max-width: 750px) {
   .footer__link {
     display: block;
     max-width: 158px;

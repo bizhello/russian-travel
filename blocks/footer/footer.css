@@ -2,26 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1184px;
+  max-width: 90%;
   min-height: 18px;
   margin: 0 auto 24px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 750px) {
   .footer {
-    max-width: 928px;
-  }
-}
-@media (max-width: 768px) {
-  .footer {
-    max-width: 720px;
-  }
-}
-@media (max-width: 660px) {
-  .footer {
-    max-width: 90%;
-    min-height: 310px;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 auto 24px;
   }
 }
