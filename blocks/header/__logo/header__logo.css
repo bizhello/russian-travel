@@ -1,6 +1,7 @@
 .header__logo {
+  display: block;
   width: 176px;
-  height: 52px;
+  min-height: 52px;
   margin: 0;
   padding: 0;
   background: url("../../../images/header-logo.svg");
@@ -11,6 +12,6 @@
 @media (max-width: 320px) {
   .header__logo {
     width: 142px;
-    height: 42px;
+    min-height: 42px;
   }
 }
