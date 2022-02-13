@@ -2,13 +2,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 90%;
-  min-height: 18px;
+  max-width: 1184px;
   margin: 0 auto 24px;
+}
+@media (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+  }
 }
 @media (max-width: 750px) {
   .footer {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+@media (max-width: 320px) {
+  .footer {
+    max-width: 186;
   }
 }

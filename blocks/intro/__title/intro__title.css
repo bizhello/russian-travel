@@ -4,17 +4,17 @@
   min-height: 68px;
   margin: 0;
   padding: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
   color: #FFFFFF;
 }
-@media (min-width: 320px) and (max-width: 1280px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .intro__title {
-    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / ( 1280 - 320) ));
-    line-height: calc(35px + (58 - 35) * ((100vw - 320px) / ( 1280 - 320) ));
+    font-size: calc(32px + (54 - 32) * ((100vw - 320px) / ( 768 - 320) ));
+    line-height: calc(35px + (58 - 35) * ((100vw - 320px) / ( 768 - 320) ));
   }
 }
 @media (max-width: 768px) {

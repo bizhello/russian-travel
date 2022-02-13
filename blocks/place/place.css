@@ -1,18 +1,20 @@
 .place {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   max-width: 100%;
-  min-height: 434px;
   padding: 0;
   margin: 0;
   margin-bottom: 80px;
 }
+
 .place:last-of-type {
   margin-bottom: 0;
 }
 @media (max-width: 768px) {
   .place {
     margin-bottom: 73px;
+  
   }
 }
 @media (max-width: 522px) {

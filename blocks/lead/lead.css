@@ -1,8 +1,12 @@
 .lead {
   max-width: 984px;
-  min-height: 0;
   margin: 56px auto 0;
   padding: 0;
+}
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
 }
 
 @media (max-width: 768px) {
