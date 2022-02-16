@@ -20,12 +20,7 @@
     font-weight: 400;
   }
 }
-/*@media (min-width: 768px) and (max-width: 1024px) {
-  .place__paragraph {
-    font-size: calc(16px + (18 - 16) * ((100vw - 768px) / ( 1024 - 768) ));
-    line-height: calc(26px + (29.34 - 26) * ((100vw - 768px) / ( 1024 - 768) ));
-  }
-}*/
+
 @media (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;

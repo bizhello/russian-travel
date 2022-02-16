@@ -1,7 +1,6 @@
 .intro__title {
   display: inline-block;
   max-width: 720px;
-  min-height: 68px;
   margin: 0;
   padding: 0;
   font-family: 'Inter', Arial, sans-serif;
@@ -17,15 +16,10 @@
     line-height: calc(35px + (58 - 35) * ((100vw - 320px) / ( 768 - 320) ));
   }
 }
-@media (max-width: 768px) {
-  .intro__title {
-    min-height: 58px;
-  }
-}
+
 @media (max-width: 320px) {
   .intro__title {
     max-width: 288px;
-    min-height: 70px;
     font-size: 32px;
     line-height: 35px;
   }

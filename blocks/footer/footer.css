@@ -4,6 +4,7 @@
   align-items: center;
   max-width: 1184px;
   margin: 0 auto 24px;
+  padding-left: 16px;
 }
 @media (max-width: 1024px) {
   .footer {
@@ -19,10 +20,5 @@
   .footer {
     flex-direction: column;
     align-items: flex-start;
-  }
-}
-@media (max-width: 320px) {
-  .footer {
-    max-width: 186;
   }
 }

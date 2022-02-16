@@ -1,7 +1,6 @@
 .intro__text {
   display: inline-block;
   max-width: 690px;
-  min-height: 208px;
   padding: 0;
   margin: 0;
   margin-top: 40px;
@@ -21,6 +20,5 @@
 @media (max-width: 320px) {
   .intro__text {
     max-width: 288px;
-    min-height: 520px;
   }
 }

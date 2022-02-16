@@ -24,7 +24,7 @@
   transition: opacity 0.3s;
 }
 .cover:hover:before {
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 @media (max-width: 1024px) {

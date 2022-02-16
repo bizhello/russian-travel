@@ -1,6 +1,5 @@
 .place__url-heading {
   max-width: 456px;
-  min-height: 12px;
   padding: 0;
   margin: 0;
   font-family: 'Inter', Arial, sans-serif;
@@ -15,7 +14,6 @@
 @media (max-width: 768px) {
   .place__url-heading {
     max-width: 352px;
-    min-height: 12px;
   }
 }
 @media (max-width: 320px) {

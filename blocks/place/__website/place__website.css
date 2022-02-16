@@ -1,9 +1,8 @@
 .place__website {
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   max-width: 47%;
-  min-height: 46px;
   padding: 0;
   margin: 0;
   margin-left: 40px;
@@ -16,7 +15,6 @@
 }
 @media (max-width: 768px) {
   .place__website {
-    min-height: 46px;
     margin-left: 28px;
   }
 }
@@ -24,10 +22,5 @@
   .place__website {
     min-width: 90%;
     margin: 32px auto 0;
-  }
-}
-@media (max-width: 320px) {
-  .place__website {
-    min-height: 46px;
   }
 }
